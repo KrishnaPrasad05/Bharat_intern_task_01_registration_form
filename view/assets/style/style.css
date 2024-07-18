@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background:linear-gradient(135deg,rgb(32, 3, 71),rgb(1, 59, 24)) ;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.custom-container{
+    min-width: 400px;
+    width: 100%;
+    
+}
+#outerDiv{
+    background-color: rgb(238, 244, 209);
+    /* border: 1px solid black; */
+    box-shadow: 2px 2px 5px lightyellow;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.btnDiv{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#formDiv{
+    display: block;
+}
+#messageDiv{
+    display: none;
+    padding: 10px;
+    margin: 10px;
+}
+.msgContent{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#dataform input{
+box-shadow: none;
+}
+
+#dataform input:focus{
+    border: 2px solid black;
+}
